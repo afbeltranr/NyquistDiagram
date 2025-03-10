@@ -78,6 +78,7 @@ def update_plots(Rs, Rct, Cdl, sigma):
 
     return fig_nyquist, fig_bode
 
+import os
 # Run the app
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 10000))  # Use Render's port or default to 10000
